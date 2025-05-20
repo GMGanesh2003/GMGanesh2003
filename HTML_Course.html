@@ -1,0 +1,188 @@
+🌐 1. What is HTML?
+HTML (HyperText Markup Language) is the standard language for creating web pages. It describes the structure of a webpage using "tags."
+
+📄 2. Basic Structure of an HTML Page
+html
+Copy
+Edit
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Page</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+  </body>
+</html>
+🔍 Explanation:
+<!DOCTYPE html>: Declares HTML5 version.
+
+<html>: Root element.
+
+<head>: Metadata (not visible on the page).
+
+<body>: Visible content.
+
+🧱 3. Headings and Paragraphs
+html
+Copy
+Edit
+<h1>Main Title</h1>
+<h2>Subheading</h2>
+<p>This is a paragraph of text.</p>
+<h1> to <h6> → Heading tags (SEO friendly)
+
+<p> → Paragraph
+
+✍️ 4. Text Formatting Tags
+html
+Copy
+Edit
+<b>Bold</b>
+<i>Italic</i>
+<u>Underline</u>
+<mark>Highlighted</mark>
+<small>Smaller text</small>
+<del>Deleted</del>
+<ins>Inserted</ins>
+🧠 Interview Tip:
+<strong> and <b> both make text bold, but <strong> has semantic meaning (important).
+
+Same for <em> vs <i> (emphasis vs italic look).
+
+📋 5. Lists
+Unordered List (bullets)
+html
+Copy
+Edit
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ul>
+Ordered List (numbers)
+html
+Copy
+Edit
+<ol>
+  <li>Wake up</li>
+  <li>Code</li>
+  <li>Sleep</li>
+</ol>
+🔗 6. Links
+html
+Copy
+Edit
+<a href="https://www.google.com" target="_blank">Go to Google</a>
+href: Destination URL
+
+target="_blank": Opens link in new tab
+
+🖼️ 7. Images
+html
+Copy
+Edit
+<img src="profile.jpg" alt="My Photo" width="200" height="200">
+src: Image path
+
+alt: Shown if image doesn’t load (important for SEO + accessibility)
+
+📊 8. Tables
+html
+Copy
+Edit
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Ganesh</td>
+    <td>22</td>
+  </tr>
+</table>
+<table>: Table start
+
+<tr>: Table row
+
+<th>: Table heading
+
+<td>: Table data
+
+📝 9. Forms
+html
+Copy
+Edit
+<form action="/submit" method="POST">
+  <label>Name:</label>
+  <input type="text" name="username"><br>
+  <label>Email:</label>
+  <input type="email" name="email"><br>
+  <input type="submit" value="Submit">
+</form>
+action: Where form data goes
+
+method: GET or POST
+
+input, textarea, select: Form controls
+
+🔤 10. Input Types
+html
+Copy
+Edit
+<input type="text">
+<input type="email">
+<input type="password">
+<input type="number">
+<input type="date">
+<input type="checkbox">
+<input type="radio">
+🧠 11. Semantic Tags (Important for SEO & Interviews)
+html
+Copy
+Edit
+<header>Site logo and nav</header>
+<nav>Menu</nav>
+<main>Main content</main>
+<section>Group of related content</section>
+<article>Independent content</article>
+<aside>Sidebar</aside>
+<footer>Copyright info</footer>
+❓ Why use semantic tags?
+They help search engines and screen readers understand your content better.
+
+💬 12. HTML Entities
+Used to show special characters:
+
+Symbol	Code
+&	&amp;
+<	&lt;
+>	&gt;
+"	&quot;
+'	&apos;
+space	&nbsp;
+
+🔲 13. iframe (Embedding Content)
+html
+Copy
+Edit
+<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" width="560" height="315"></iframe>
+Used to embed other websites, maps, or videos.
+
+🔗 14. Anchor Links to Sections (Single Page)
+html
+Copy
+Edit
+<a href="#contact">Go to Contact</a>
+
+<h2 id="contact">Contact Me</h2>
+Used in one-page websites for smooth scrolling.
+
+📌 HTML Project Ideas for Practice
+Project	Concepts Covered
+Personal Bio Page	Text, images, links, lists
+Simple Resume Page	Semantic tags, layout
+Table of Products	<table> usage
+Contact Form	Form tags
+Link Tree Clone	Anchor tags, images
