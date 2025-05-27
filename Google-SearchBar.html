@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Google Style Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+    }
+
+    .logo {
+      font-size: 60px;
+      font-weight: bold;
+    }
+
+    .logo span:nth-child(1) { color: #4285F4; } /* G - blue */
+    .logo span:nth-child(2) { color: #EA4335; } /* o - red */
+    .logo span:nth-child(3) { color: #FBBC05; } /* o - yellow */
+    .logo span:nth-child(4) { color: #4285F4; } /* g - blue */
+    .logo span:nth-child(5) { color: #34A853; } /* l - green */
+    .logo span:nth-child(6) { color: #EA4335; } /* e - red */
+
+    .search-box {
+      margin-top: 30px;
+    }
+
+    .search-box input {
+      width: 500px;
+      padding: 14px 20px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 25px;
+      outline: none;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .search-box input:focus {
+      border-color: #4285F4;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo">
+    <span>G</span>
+    <span>o</span>
+    <span>o</span>
+    <span>g</span>
+    <span>l</span>
+    <span>e</span>
+  </div>
+
+  <div class="search-box">
+    <input type="text" placeholder="Search Google or type a URL">
+  </div>
+
+</body>
+</html>
