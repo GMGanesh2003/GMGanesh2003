@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VotingApp</title>
+</head>
+<body>
+<input id="ageInput" type="number" placeholder="Enter your age"/>
+<button onclick="checkEligibility()">Check</button>
+<p id="result"</p>
+  <script>
+    function checkEligibility(){
+      const age = document.getElementById("ageInput").value;
+
+      if(age >= 18){
+        document.getElementById("result").innerText="✅ You can vote!";
+      }else{
+        document.getElementById("result").innerText="❌ You are too young to vote.";
+      }
+    }
+  </script>
+</body>
+</html>
