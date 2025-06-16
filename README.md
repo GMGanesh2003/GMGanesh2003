@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm GM Ganesh</h1>
-<h3 align="center">A passionate web developer</h3>
+<h3 align="center">"Hi, I'm a passionate software developer driven by curiosity and a love for building impactful solutions. I enjoy turning complex problems into clean, efficient, and scalable code.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=gmganesh2003&label=Profile%20views&color=0e75b6&style=flat" alt="gmganesh2003" /> </p>
 
